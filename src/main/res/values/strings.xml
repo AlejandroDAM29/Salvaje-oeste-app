@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PacMultimedia</string>
+    <string name="boton_actividad_dos">Database</string>
+    <string name="boton_actividad_tres">Photo booth</string>
+    <string name="boton_actividad_cuatro">Galería</string>
+    <string name="pause">Stop music</string>
+    <string name="play">Play</string>
+    <string name="crear_tabla">Create table</string>
+    <string name="insertar_datos">Insert dates</string>
+    <string name="consultar_datos">Consult data</string>
+    <string name="volver">Return</string>
+    <string name="hintNombre">Name</string>
+    <string name="hintEdad">Age</string>
+    <string name="ayuda_consulta">Enter the name of the cowboy you want to find. Press search</string>
+    <string name="boton_consultar">Search</string>
+    <string name="boton_ingresar">Insert</string>
+    <string name="ayuda_ingreso">Write a name and an age for your cowboy. Click on insert</string>
+    <string name="fotomaton">Press photo booth</string>
+    <string name="registro_guardado">The record has been inserted with the key:</string>
+    <string name="mensaje_bases">Choose one of the following options</string>
+    <string name="volver_land">X</string>
+    <string name="Tabla_creada">Table created successfully</string>
+</resources>

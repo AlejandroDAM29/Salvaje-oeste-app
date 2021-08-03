@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="texto_boton">30sp</dimen>
+    <dimen name="texto_boton_bases">30sp</dimen>
+    <dimen name="texto_musica">15dp</dimen>
+    <dimen name="descripcion_consulta">17dp</dimen>
+    <dimen name="texto_fotomaton">60sp</dimen>
+    <dimen name="boton_fotomaton">50sp</dimen>
+    <dimen name="anchura_fotomaton">295dp</dimen>
+    <dimen name="altura_fotomaton">454dp</dimen>
+    <dimen name="anchura_scroll">283dp</dimen>
+    <dimen name="texto_boton_galeria">50sp</dimen>
+    <dimen name="altura_scroll">563dp</dimen>
+    <dimen name="altura_foto_vaqueros">160dp</dimen>
+    <dimen name="anchura_foto_vaqueros">148dp</dimen>
+    <dimen name="Terence_Hill">160dp</dimen>
+    <dimen name="vertical_botones_principal_galeria">0.655</dimen>
+    <dimen name="vertical_botones_principal">0.355</dimen>
+    <dimen name="alto_imagen_principal_land">162dp</dimen>
+    <dimen name="ancho_imagen_principal_land">372dp</dimen>
+    <dimen name="altura_maxima_botones_principal">63dp</dimen>
+    <dimen name="texto_boton_return_bases">40sp</dimen>
+    <dimen name="altura_boton_bases">63dp</dimen>
+    <dimen name="anchura_boton_bases">198dp</dimen>
+    <dimen name="margen_top_boton_ingreso_search">320dp</dimen>
+    <dimen name="margen_bottom_boton_ingreso_search">115dp</dimen>
+    <dimen name="margen_top_relative">10dp</dimen>
+    <dimen name="margen_botom_volver_search">35dp</dimen>
+    <dimen name="margen_top_volver_search">400dp</dimen>
+    <dimen name="altura_fotomaton_land">327dp</dimen>
+    <dimen name="anchura_fotomaton_land">275dp</dimen>
+    <dimen name="boton_volver_bases">50sp</dimen>
+    <dimen name="boton_volver_bases_portrait">30sp</dimen>
+    <dimen name="altura_boton_galeria_land">148dp</dimen>
+    <dimen name="anchura_boton_galeria_land">50dp</dimen>
+    <dimen name="texto_boton_galeria_land">30sp</dimen>
+
+
+
+</resources>

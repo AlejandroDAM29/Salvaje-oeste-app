@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PacMultimedia</string>
+    <string name="boton_actividad_dos">Base datos</string>
+    <string name="boton_actividad_tres">Fotomaton</string>
+    <string name="boton_actividad_cuatro">Galeria</string>
+    <string name="pause">Parar musica</string>
+    <string name="play">Play</string>
+    <string name="crear_tabla">Crear tabla</string>
+    <string name="insertar_datos">Inserta datos</string>
+    <string name="consultar_datos">Consulta datos</string>
+    <string name="volver">Volver</string>
+    <string name="hintNombre">Nombre</string>
+    <string name="hintEdad">Edad</string>
+    <string name="ayuda_consulta">Introduce el nombre del vaquero a quieras encontrar. Pulsa buscar</string>
+    <string name="boton_consultar">Buscar</string>
+    <string name="boton_ingresar">Meter</string>
+    <string name="ayuda_ingreso">Escribe un nombre y una edad para tu vaquero. Click en meter</string>
+    <string name="fotomaton">Pulsa el fotomaton</string>
+    <string name="registro_guardado">El registro ha sido insertado con la clave:</string>
+    <string name="mensaje_bases">Elige una de las siguiente opciones</string>
+    <string name="volver_land">X</string>
+    <string name="Tabla_creada">Tabla creada correctamente</string>
+</resources>

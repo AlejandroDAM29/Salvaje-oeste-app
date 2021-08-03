@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <!--La etiqueta gradient se usa para indicar que se va a crear un color degradado-->
+            <gradient
+                android:startColor="#381900"
+                android:endColor="#883E01"
+                android:angle="0"
+                ></gradient>
+            <corners android:radius="12dp"></corners>
+        </shape>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/base_datos"
+    tools:context=".Insertar_datos">
+
+    <RelativeLayout
+        android:id="@+id/relative_ingreso"
+        android:layout_width="299dp"
+        android:layout_height="420dp"
+        android:layout_marginTop="@dimen/margen_top_relative"
+        android:background="@drawable/hoja_quemada"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.495">
+
+
+        <TextView
+            android:id="@+id/texto_ingreso"
+            android:layout_width="189dp"
+            android:layout_height="73dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="41dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="306dp"
+            android:text="@string/ayuda_ingreso"
+            android:textSize="@dimen/descripcion_consulta" />
+
+        <EditText
+            android:id="@+id/texto_nombre_ingreso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="131dp"
+            android:layout_marginEnd="41dp"
+            android:layout_marginBottom="244dp"
+            android:ems="10"
+            android:hint="@string/hintNombre"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/texto_edad_ingreso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="191dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="184dp"
+            android:autofillHints=""
+            android:ems="3"
+            android:hint="@string/hintEdad"
+            android:inputType="number" />
+
+    </RelativeLayout>
+
+    <android.widget.Button
+        android:id="@+id/boton_ingreso"
+        style="@style/botones_activity_uno"
+        android:layout_width="135dp"
+        android:layout_height="53dp"
+        android:text="@string/boton_ingresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/boton_volver_ingreso"
+        style="@style/botones_activity_uno"
+        android:layout_width="138dp"
+        android:layout_height="52dp"
+        android:onClick="volverPrincipal"
+        android:text="@string/volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

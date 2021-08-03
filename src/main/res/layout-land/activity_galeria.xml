@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marco_horizontal"
+    tools:context=".Galeria">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="@dimen/anchura_foto_vaqueros"
+        android:layout_height="@dimen/altura_foto_vaqueros"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161"
+        app:srcCompat="@drawable/bad_spencer" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="@dimen/anchura_foto_vaqueros"
+        android:layout_height="@dimen/altura_foto_vaqueros"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84"
+        app:srcCompat="@drawable/clint_eastwood" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="@dimen/anchura_foto_vaqueros"
+        android:layout_height="@dimen/altura_foto_vaqueros"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.832"
+        app:srcCompat="@drawable/jhon_ford" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="@dimen/anchura_foto_vaqueros"
+        android:layout_height="@dimen/altura_foto_vaqueros"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.162"
+        app:srcCompat="@drawable/john_wayne" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="@dimen/anchura_foto_vaqueros"
+        android:layout_height="@dimen/altura_foto_vaqueros"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.841"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174"
+        app:srcCompat="@drawable/orson_welles" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="@dimen/anchura_foto_vaqueros"
+        android:layout_height="@dimen/Terence_Hill"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.837"
+        app:srcCompat="@drawable/terence_hill" />
+
+    <android.widget.Button
+        android:id="@+id/button2"
+        style="@style/botones_activity_uno"
+        android:layout_width="@dimen/anchura_boton_galeria_land"
+        android:layout_height="@dimen/altura_boton_galeria_land"
+        android:onClick="Volver"
+        android:textSize="@dimen/texto_boton_galeria_land"
+        android:text="@string/volver_land"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.001"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Esta es la dimensión del mi teléfono para hacer pruebas-->
+<resources>
+    <dimen name="texto_fotomaton">60sp</dimen>
+    <dimen name="anchura_fotomaton">274dp</dimen>
+    <dimen name="altura_fotomaton">367dp</dimen>
+    <dimen name="anchura_scroll">230dp</dimen>
+    <dimen name="altura_scroll">410dp</dimen>
+    <dimen name="altura_foto_vaqueros">120dp</dimen>
+    <dimen name="anchura_foto_vaqueros">148dp</dimen>
+    <dimen name="Terence_Hill">112dp</dimen>
+    <dimen name="vertical_botones_principal_galeria">0.812</dimen>
+    <dimen name="vertical_botones_principal">0.355</dimen>
+    <dimen name="alto_imagen_principal_land">162dp</dimen>
+    <dimen name="ancho_imagen_principal_land">372dp</dimen>
+    <dimen name="altura_maxima_botones_principal">40dp</dimen>
+    <dimen name="texto_boton_return_bases">25sp</dimen>
+    <dimen name="altura_boton_bases">50dp</dimen>
+    <dimen name="anchura_boton_bases">130dp</dimen>
+    <dimen name="margen_top_boton_ingreso_search">340dp</dimen>
+    <dimen name="margen_bottom_boton_ingreso_search">108dp</dimen>
+    <dimen name="margen_top_relative">120dp</dimen>
+    <dimen name="boton_volver_bases">50sp</dimen>
+    <dimen name="boton_volver_bases_portrait">50sp</dimen>
+    <dimen name="texto_boton">25sp</dimen>
+    <dimen name="texto_boton_bases">25sp</dimen>
+    <dimen name="texto_musica">15dp</dimen>
+    <dimen name="descripcion_consulta">17dp</dimen>
+    <dimen name="boton_fotomaton">50sp</dimen>
+    <dimen name="margen_botom_volver">52dp</dimen>
+    <dimen name="margen_top_volver_search">402dp</dimen>
+    <dimen name="altura_fotomaton_land">200dp</dimen>
+    <dimen name="anchura_fotomaton_land">200dp</dimen>
+    <dimen name="texto_boton_galeria">50sp</dimen>
+    <dimen name="altura_boton_galeria_land">148dp</dimen>
+    <dimen name="anchura_boton_galeria_land">50dp</dimen>
+    <dimen name="texto_boton_galeria_land">30sp</dimen>
+</resources>

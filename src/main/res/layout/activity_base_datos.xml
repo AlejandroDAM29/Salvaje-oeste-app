@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/base_datos"
+    tools:context=".base_datos">
+
+    <android.widget.Button
+        android:id="@+id/boton_crear_tabla"
+        style="@style/botones_base_datos"
+        android:text="@string/crear_tabla"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271"
+        android:background="@android:color/transparent"
+        android:onClick="creaTabla"/>
+
+    <android.widget.Button
+        android:id="@+id/boton_inesrtar_datos"
+        style="@style/botones_base_datos"
+        android:text="@string/insertar_datos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474"
+        android:background="@android:color/transparent"
+        android:onClick="haciaIngresos"/>
+
+    <android.widget.Button
+        android:id="@+id/boton_consultar_datos"
+        style="@style/botones_base_datos"
+        android:text="@string/consultar_datos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639"
+        android:background="@android:color/transparent"
+        android:onClick="haciaConsultas"/>
+
+    <android.widget.Button
+        android:id="@+id/boton_volver"
+        style="@style/botones_activity_uno"
+        android:text="@string/volver"
+        android:textSize="@dimen/boton_volver_bases_portrait"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924"
+        android:onClick="volverPrincipal"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
